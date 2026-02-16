@@ -1,0 +1,251 @@
+<<<<<<< HEAD
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #24292f;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #57606a;
+  margin-bottom: 20px;
+}
+
+.cta {
+  padding: 10px 20px;
+  background: #24292f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* PRICING */
+.pricing {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.card {
+  border: 1px solid #d0d7de;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.price span {
+  font-size: 14px;
+  color: #57606a;
+}
+
+.card button {
+  padding: 8px 15px;
+  background: #2da44e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* ENTERPRISE */
+.highlight {
+  border: 2px solid #0969da;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0969da;
+  color: white;
+  padding: 3px 10px;
+  font-size: 12px;
+}
+
+/* ADDONS */
+.addons h2 {
+  margin-bottom: 20px;
+}
+
+.addons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.addon {
+  border: 1px solid #d0d7de;
+  padding: 20px;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .addons-grid {
+    grid-template-columns: 1fr;
+  }
+}
+=======
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #24292f;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #57606a;
+  margin-bottom: 20px;
+}
+
+.cta {
+  padding: 10px 20px;
+  background: #24292f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* PRICING */
+.pricing {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.card {
+  border: 1px solid #d0d7de;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.price span {
+  font-size: 14px;
+  color: #57606a;
+}
+
+.card button {
+  padding: 8px 15px;
+  background: #2da44e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* ENTERPRISE */
+.highlight {
+  border: 2px solid #0969da;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0969da;
+  color: white;
+  padding: 3px 10px;
+  font-size: 12px;
+}
+
+/* ADDONS */
+.addons h2 {
+  margin-bottom: 20px;
+}
+
+.addons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.addon {
+  border: 1px solid #d0d7de;
+  padding: 20px;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .addons-grid {
+    grid-template-columns: 1fr;
+  }
+}
+>>>>>>> e933ba92755d681e6b465dfd3397f7e9a65b53f5

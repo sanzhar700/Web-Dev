@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+
+        <style>
+            body {
+                background-color: rgb(240, 245, 255);
+                font-family: Arial, sans-serif;
+            }
+
+            h1 {
+                color: rgb(180, 30, 50);
+            }
+
+            h2 {
+                color: rgb(50, 80, 150);
+            }
+
+            p {
+                color: rgb(40, 40, 40);
+            }
+
+            .highlight {
+                color: rgb(200, 60, 60);
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+    
+        <h1>Travel to Japan</h1>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Tokyo_Montage_2015.jpg"
+             alt="Tokyo city"
+             width="400">
+
+        <p>
+            Japan is an <span class="highlight">amazing country</span> where ancient traditions
+            meet modern technology. You will experience a unique culture,
+            delicious food, and beautiful landscapes.
+        </p>
+
+        <h2>Places to visit</h2>
+        <ul>
+            <li>Tokyo</li>
+            <li>Kyoto</li>
+            <li>Mount Fuji</li>
+            <li>Osaka</li>
+        </ul>
+
+        <h2>Things to do</h2>
+        <ol>
+            <li>Try sushi and ramen</li>
+            <li>Visit temples and shrines</li>
+            <li>See cherry blossoms</li>
+            <li>Explore modern cities</li>
+        </ol>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Cherry_blossoms_in_Japan.jpg"
+             alt="Cherry blossoms"
+             width="400">
+
+        <p>
+            Whether you love nature, food, or technology,
+            <span class="highlight">Japan has something for everyone</span>.
+        </p>
+
+    </body>
+</html>

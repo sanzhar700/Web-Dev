@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+
+        <style>
+            body {
+                font-family: sans-serif;
+                line-height: 1.6;
+                background-color: rgb(245, 245, 245);
+                color: rgb(40, 40, 40);
+            }
+
+            h1 {
+                color: rgb(50, 80, 150);
+            }
+
+            h2 {
+                color: rgb(80, 120, 200);
+            }
+
+            .date {
+                font-style: italic;
+                color: rgb(120, 120, 120);
+            }
+
+            .post {
+                background-color: white;
+                padding: 15px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <h1>Sanzhar's blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#post1">First post</a></li>
+            <li><a href="#post2">Learning HTML & CSS</a></li>
+        </ul>
+        
+        <div class="post">
+            <h2 id="post1">First post</h2>
+            <h6 class="date">Posted on March 2026</h6>
+            <p>
+                Today I started learning web development. At first,
+                HTML looked confusing, but after some practice,
+                I understood how tags work.
+            </p>
+        </div>
+
+        <div class="post">
+            <h2 id="post2">Learning HTML & CSS</h2>
+            <h6 class="date">Posted on March 2026</h6>
+            <p>
+                I learned how to use lists, tables, links, and CSS styles.
+                Now I can create simple web pages and style them
+                using colors, fonts, and spacing.
+            </p>
+        </div>
+        
+    </body>
+</html>

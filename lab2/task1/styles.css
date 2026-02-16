@@ -1,0 +1,147 @@
+<<<<<<< HEAD
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+/* центрируем страницу */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.logo {
+  color: #1877f2;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forgot {
+  display: block;
+  margin: 15px 0;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.create {
+  display: inline-block;
+  padding: 10px;
+  background: #42b72a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+=======
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+/* центрируем страницу */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.logo {
+  color: #1877f2;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forgot {
+  display: block;
+  margin: 15px 0;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.create {
+  display: inline-block;
+  padding: 10px;
+  background: #42b72a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+>>>>>>> e933ba92755d681e6b465dfd3397f7e9a65b53f5

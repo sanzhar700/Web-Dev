@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+
+        <style>
+            body {
+                background-color: rgb(255, 248, 240);
+                font-family: Arial, sans-serif;
+            }
+
+            h1 {
+                color: rgb(180, 60, 60);
+            }
+
+            h2 {
+                color: rgb(120, 80, 40);
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 60%;
+            }
+
+            th, td {
+                border: 1px solid rgb(150, 150, 150);
+                padding: 8px;
+            }
+
+            th {
+                background-color: rgb(240, 220, 200);
+            }
+        </style>
+    </head>
+
+    <body>
+       
+        <h1>Sancho's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#pasta">Creamy Pasta</a></li>
+        </ol>
+        
+        <h2 id="pasta">Creamy Pasta</h2>
+        
+        <ul>
+            <li>Time: 20 minutes</li>
+            <li>Serves: 2 people</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pasta</td>
+                    <td>200 g</td>
+                </tr>
+                <tr>
+                    <td>Cream</td>
+                    <td>150 ml</td>
+                </tr>
+                <tr>
+                    <td>Cheese</td>
+                    <td>50 g</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Boil the pasta in salted water.</p>
+        <p><strong>Step 2:</strong> Heat the cream and add cheese.</p>
+        <p><strong>Step 3:</strong> Mix pasta with the sauce and serve.</p>
+        
+        <p>
+            <em>Source: 
+                <a href="https://www.bbcgoodfood.com" target="_blank">
+                    BBC Good Food
+                </a>
+            </em>
+        </p>
+    
+    </body>
+</html>
